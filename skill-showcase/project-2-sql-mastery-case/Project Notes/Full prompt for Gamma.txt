@@ -1,0 +1,154 @@
+Create a professional presentation for a Data Analyst portfolio project titled:
+
+"E-commerce Business Analysis using SQL"
+
+The presentation should be clean, minimal, and suitable for explaining a portfolio project to recruiters.
+
+Slides to include:
+
+1st Slide - Title Slide
+Project Title
+Author: Ashwani Kumar Patra
+Tools Used: MySQL
+
+2nd Slide - Project Overview
+
+This project performs business analysis on an e-commerce dataset using SQL to uncover insights related to revenue, customers, product performance, and logistics operations.
+
+It is a skill showcase project designed to demonstrate strong proficiency in SQL by applying key analytical techniques such as
+1. Joins
+2. Aggregations
+3. GROUP BY
+4. Filtering
+5. Subqueries
+6. Date Functions
+7. Window Functions
+To transform raw data into meaningful business insights.
+
+3rd Slide - Dataset Overview
+
+We have 5 tables in the dataset,
+1. df_Customers
+2. df_Orderitems
+3. df_Orders
+4. df_Payments
+5. df_Products
+
+Tables description(Column names):-
+1. df_Customers table has columns: customer_id, customer_zip_code, customer_city, customer_state.
+2. df_Orderitems table has columns: order_id, product_id, seller_id, price, shipping_charges
+3. df_Orders table has columns: order_id, customer_id, order_status, order_purchase_timestamp, order_approved_at, order_delivered_timestamp, order_estimated_delivery_date 
+4. df_Payments table has columns: order_id, payment_sequential, payment_type, payment_installments, payment_value
+5. df_Products yable has columns: product_id, product_category_name, product_weight_g, product_length_cm, product_height_cm, product_width_cm.
+
+[Column containing timestamp in their names are in DD-MM-YYYY Hours:Minutes format]
+
+4th Slide - Project Workflow
+
+1. Data Loading & Table Registration (MySQL)
+2. Raw Data Familiarization & Sanity Checks
+3. Data Quality Assessment & Cleaning Strategy
+4. Business-Ready Analytical Views
+5. Leadership-Level Business Health Metrics
+6. Customer, Revenue & Operations Analysis
+7. Advanced SQL Analytics & Insights
+8. Summarizing Executive Business Insights
+9. Business Recommendations
+10. Dashboard metrics (For BI Tools) 
+ 
+5th Slide - Business Questions
+
+1. How much total revenue has the company generated?
+2. How many orders generated this revenue?
+3. How many unique customers bought from us?
+4. On average, how much money does each order generate?
+5. How much revenue came from shipping charges?
+6. Which regions generate the most money for the business?
+7. Which cities have the largest customer base?
+8. In which states do most of our customers live?
+9. How many orders are delivered, cancelled, or still processing?
+10. What is the percentage of orders that has been successfully delivered ?
+11. How long does it typically take to deliver an order?
+12. How often do we miss our promised delivery date?
+13. Which types of products bring the most money?
+14. What are the Top product categories by number of orders?
+15. Which categories sell expensive products vs cheaper products?
+16. What is the average shipping cost ?
+17. Is shipping cheap or expensive relative to the product price?
+18. What are the Top 10 Highest Revenue Generating Products ?
+19. Is revenue growing or declining over time?
+20. What is the Cumulative Revenue Growth Over Time?
+
+6th Slide - Key Executive Business Insights
+
+1. Revenue Growth: The platform generated ~29.9M total revenue, with strong growth during 2017, indicating rapid marketplace expansion.
+2. Seasonal Sales Spike: Revenue peaked in November 2017 (2.8M), likely driven by holiday season / Black Friday demand.
+3. Category Dominance: The toys category dominates the marketplace, generating significantly higher revenue and order volume than any other category.
+4. High-Volume Sales Model: Despite not being among the highest priced categories, toys generate revenue through extremely high purchase volume.
+5. Strong Delivery Performance: Approximately 97.9% of orders were successfully delivered, indicating strong operational performance.
+6. Logistics Reliability: About 7.7% of orders were delivered later than estimated, suggesting generally reliable logistics but with room for improvement.
+7. Shipping Cost Structure: Shipping costs average 44.28 per item, representing ~82.9% of product price, suggesting many low-priced products with relatively fixed shipping costs.
+
+7th Slide - Business Recommendations
+
+1. Double down on the Toys Category
+
+Since toys drive the majority of revenue and orders, the company should:
+- expand toy inventory
+- strengthen supplier partnerships
+- prioritize marketing in this category
+
+2. Improve Logistics Efficiency
+
+Reducing the 7.7% late delivery rate can improve customer satisfaction.
+
+Possible actions:
+- optimize courier partnerships
+- improve warehouse processing times
+
+3. Reduce Shipping Cost Burden
+
+Since shipping cost is very high relative to product price, Possible strategies:
+- bundled shipping
+- minimum order value for free shipping
+- multi-item delivery optimization
+
+4. Promote High-Value Categories
+
+Categories such as la_cuisine and garden_tools have high average prices.
+Marketing these products could increase average order value.
+
+8th Slide - Dashboard Metrics (For BI Tools):-
+
+These become the dashboard KPIs.
+
+Leadership KPIs
+- Total Revenue
+- Total Orders
+- Total Customers
+- Average Order Value
+- Delivery Success Rate
+
+Product Dashboard
+- Top Categories by Revenue
+- Top Categories by Orders
+- Top Products by Revenue
+- Average Product Price by Category
+
+Logistics Dashboard
+- Average Delivery Time
+- Late Delivery Rate
+- Average Shipping Cost
+- Shipping Cost vs Product Price
+
+Growth Dashboard
+- Monthly Revenue Trend
+- Cumulative Revenue Growth
+
+9th Slide - Conclusion
+
+- This project demonstrates how SQL can be used to transform raw transactional data into meaningful business insights.
+- By applying core SQL techniques such as joins, aggregations, filtering, subqueries, date functions, and window functions, key aspects of the business including revenue growth, customer distribution, product performance, and logistics efficiency were analyzed.
+- The analysis highlights how structured querying and analytical thinking can support data-driven decision making, showcasing practical SQL skills relevant for real-world data analyst roles.
+
+10th Slide - Thank you
