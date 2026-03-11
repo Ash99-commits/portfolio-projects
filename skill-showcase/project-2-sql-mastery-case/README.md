@@ -21,4 +21,4 @@ Throughout this project, the following principles have been strictly followed:
 
 This project serves as a SQL Mastery Case, highlighting my ability to analyze complex datasets, write production-ready SQL, and extract insights that support data-driven decision-making.
 
-## Project Walkthrough Video: https://youtu.be/qzajqECXkZM
+### ▶️ Watch the full walkthrough (Unlisted YouTube Video): 👉 (https://youtu.be/qzajqECXkZM)
